@@ -31,6 +31,7 @@ public class Calculator extends AppCompatActivity {
             String newoutput = currentoutput + number;
             output.setText(newoutput);
         }
+        end_compute = false;
     }
 
     public void Clear(View button){
